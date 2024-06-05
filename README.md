@@ -1,23 +1,15 @@
-# Title of the project
+Use this branch as a starting point to create your own private analysis branch. This branch does not have docs and references folders. You can update those directly on the Github website.
 
-Documentation is **the most important** part of any scientific project. Please read the instructions here carefully and follow them. This will ensure:
-1. You make good progress on your project in an organized manner
-2. When you look back at your work one year from now, you will be able to still make sense of it and use it (it is surprisingly easy and common to become completely blank about old code, old decisions or old work in a long project!)
-3. When you leave and someone else takes up your project, they are able to actually use the progress you made and move the project forward. This will benefit you as well when the project leads to a manuscript!
+In this branch you can create all the mess of notebooks and scripts you need. Once things are finalized and clean, they can be added to the main branch.
 
-## How to use this repository for project management
-You can read [this](https://rabernat.medium.com/scientific-collaboration-and-project-management-in-github-d74f2255ae5f) as well.
+You can use some sample data from the full experimental dataset in this branch for your work. No need to include the qhole dataset in this branch.
 
-## 0. Basic instructions
-1. Create a repository for your project using this repository as a template (see the `Use this remplate` button on the top right? Create a new repository from there!).
-2. **Select `include all branches`** on the next page.
-3. The owner should be `csndl-iitd`.
-4. Give the repository a name (and description, if you want) based on your project.
-5. Keep it public and hit `Create repository`.
-6. Install `Github desktop` on your computer (not necessary but it will make your life easier).
-7. Clone the newly created repository to your computer using Github desktop.
-8. Now read the rest of this page to understand how to use your repository.
-
+## To create your own analysis branch:
+### In github desktop:
+1. Open the analysis-template branch
+2. Create a new branch and give it your name
+![alt text](github_desktop_new_branch.png)
+3. Start working in your own branch!
 ## 1. Project related discussion and weekly updates
 All project related discussion will happen through `issues` on `Github.com`. Create the first issue named `Main discussion thread` if it is not already present and add the overall goal of the project there.  
 
@@ -52,4 +44,4 @@ The `analysis` folder should be used for keeping all your code and Jupyter noteb
 ## 5. Data
 All data should live in the `data` folder. There are two sub-folders by default - `raw` and `processed`. As the names suggest, raw data should go in `raw` folder. All the results of your processing should go in the `processed` folder. As needed, add other required structure to keep the data well-organized.  
 
-As we use this system more, we will figure out how to handle large datasets. The readme will be updated accordingly.
+
